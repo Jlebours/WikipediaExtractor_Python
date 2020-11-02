@@ -19,4 +19,3 @@ if __name__ == '__main__':
         table_name = f"table-{i}"
         print(f"[+] Saving {table_name}")
         HTMLtoCSV.Save_As_Csv(table_name, headers, rows)
-        //test push
