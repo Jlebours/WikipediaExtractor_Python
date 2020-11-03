@@ -8,7 +8,7 @@ def save_As_Csv(table_name, headers, rows):
 
 
 # All tables of a URL
-def CreateCsv_URL(url):
+def createCsv_URL(url):
     soup = ExtractHTML.UrltoHtml(url)
     tables = ExtractHTML.Get_All_Tables(soup)
     print(f"[+] Found a total of {len(tables)} tables.")

@@ -10,7 +10,6 @@ LANGUAGE = "en-US,en;q=0.5"
 
 def urltoHtml(url):
     """Get the soup using the HTML content of `url` """
-
     # initialize a session
     session = requests.Session()
     # set the User-Agent as a regular browser

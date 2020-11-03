@@ -1,4 +1,3 @@
-import ExtractHTML
 import HTMLtoCSV
 
 # Press the green button in the gutter to run the script.
