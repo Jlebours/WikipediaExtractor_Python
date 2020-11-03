@@ -1,14 +1,11 @@
-
 import ExtractHTML
 import HTMLtoCSV
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-
     soup = ExtractHTML.UrltoHtml("https://wikipedia.com/wiki/Comparison_(grammar)")
     tables = ExtractHTML.Get_All_Tables(soup)
     print(f"[+] Found a total of {len(tables)} tables.")
-
-    # iterate over all tables
     # iterate over all tables
     for i, table in enumerate(tables, start=1):
         # get the table headers
