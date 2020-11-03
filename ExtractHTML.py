@@ -8,7 +8,7 @@ USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 LANGUAGE = "en-US,en;q=0.5"
 
 
-def urltoHtml(url):
+def urlToHtml(url):
     """Get the soup using the HTML content of `url` """
     # initialize a session
     session = requests.Session()
