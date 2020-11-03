@@ -5,8 +5,8 @@ import HTMLtoCSV
 
 
 if __name__ == '__main__':
-    fichier = open()
-    url = fichier.readline("inputdata/wikiurls.txt")
+    fichier = open("inputdata/wikiurls.txt")
+    url = fichier.readline()
     for i in url:
         wurl = "BASE_WIKIPEDIA_URL" + i
         #soup = ExtractHTML.UrltoHtml("https://wikipedia.com/wiki/Comparison_(grammar)")
