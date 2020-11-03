@@ -1,12 +1,12 @@
+import ExtractHTML
 import HTMLtoCSV
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # Function General
-    HTMLtoCSV.createCsvURL("https://wikipedia.com/wiki/Comparison(grammar)")
+    #HTMLtoCSV.createCsvURL("https://wikipedia.com/wiki/Comparison(grammar)")
 
-    fichier = open("inputdata/wikiurls.txt")
-    url = fichier.readline()
-    for i in url:
-        wurl = "BASE_WIKIPEDIA_URL" + i
-        HTMLtoCSV.createCsvURL(wurl)
+    with open("inputdata/wikiurls.txt", "r") as file:
+        for url in file:
+            wurl = "https://wikipedia.com/wiki/" + url
+            HTMLtoCSV.createCsvURL(wurl)
