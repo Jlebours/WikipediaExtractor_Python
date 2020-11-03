@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="CreateCsvURL" />
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="CreateCsvURL">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractHTML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/inputdata" />
@@ -99,6 +104,7 @@
       <workItem from="1604338638444" duration="155000" />
       <workItem from="1604338804996" duration="1185000" />
       <workItem from="1604411706937" duration="2360000" />
+      <workItem from="1604414078014" duration="191000" />
     </task>
     <task id="LOCAL-00002" summary="test push">
       <created>1604412459082</created>
@@ -121,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604413905593</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CreateCsvURL">
+      <created>1604414091759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604414091759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,10 +159,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="CreateCsvURL" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1222" y="347" key="#Notifications" timestamp="1604414006773">
+    <state x="-1222" y="347" key="#Notifications" timestamp="1604414121643">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1222" y="347" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604414006773" />
+    <state x="-1222" y="347" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604414121643" />
     <state x="2381" y="168" key="SettingsEditor" timestamp="1604339132984">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
@@ -159,11 +172,11 @@
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335356245" />
     <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604413005243" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604413909508">
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604414108799">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335351543" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604413909508" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604414108799" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604413986112">
       <screen x="-1920" y="4" width="1920" height="1040" />
