@@ -25,7 +25,7 @@ def urlToHtml(url):
 
 def get_All_Tables(soup):
     """ Get all tables content of `url` """
-    tables = soup.find_all('table')
+    tables = soup.find_all('table', {'class': 'wikitable'})
     # print(tables)
     return tables
 

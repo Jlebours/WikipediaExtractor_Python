@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="update of save_As_CSV to extract csv in directory output">
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="update of main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractHTML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputdata/wikiurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/wikiurls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -109,7 +111,7 @@
       <workItem from="1604427120765" duration="4627000" />
       <workItem from="1604431782443" duration="273000" />
       <workItem from="1604484004091" duration="621000" />
-      <workItem from="1604485629924" duration="1623000" />
+      <workItem from="1604485629924" duration="3436000" />
     </task>
     <task id="LOCAL-00002" summary="test push">
       <created>1604412459082</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604486864504</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update of main">
+      <created>1604487286118</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604487286118</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +232,8 @@
     <MESSAGE value="creation of the output" />
     <MESSAGE value="update of .gitignore" />
     <MESSAGE value="update of save_As_CSV to extract csv in directory output" />
-    <option name="LAST_COMMIT_MESSAGE" value="update of save_As_CSV to extract csv in directory output" />
+    <MESSAGE value="update of main" />
+    <option name="LAST_COMMIT_MESSAGE" value="update of main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1222" y="347" key="#Notifications" timestamp="1604414121643">
@@ -242,22 +252,22 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1230" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428968991" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604487212065">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604488830381">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487212065" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604487212064">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604488830381" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604488830380">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487212064" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604487212064">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604488830380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604488830380">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487212064" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604487212064">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604488830380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604488830381">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487212064" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604488830381" />
     <state x="-1736" y="90" key="MergeDialog" timestamp="1604485738294">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
@@ -271,16 +281,16 @@
     </state>
     <state x="-1459" y="168" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604416944680" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339132984" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604486883219">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604487292146">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335356245" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604486883219" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604486868071">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487292146" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604487288651">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335351543" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604486868071" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604487288651" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
     <state x="-1253" y="123" width="585" height="801" key="find.popup" timestamp="1604429003313">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -292,6 +302,6 @@
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604429945474" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604487212054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604488830373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
