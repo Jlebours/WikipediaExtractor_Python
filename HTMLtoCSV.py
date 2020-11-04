@@ -4,22 +4,16 @@ import os
 
 def save_As_Csv(table_name, headers, rows):
     """HTML to CSV for table content of `url` """
-    pandas.DataFrame(rows, columns=headers).to_csv("./output", f"{table_name}.csv", index=False)
+    outname = f"{table_name}.csv"
+    outdir = './output'
+    if not os.path.exists(outdir):
+        os.mkdir(outdir)
+    fullname = os.path.join(outdir, outname)
+    pandas.DataFrame(rows, columns=headers).to_csv(fullname)
 
 
 # All tables of a URL
 def createCsv_URL(wurl, url):
-    if not (os.path.exists("./output")):
-        # define the name of the directory to be created
-        path = "./output"
-        # define the access rights
-        access_rights = 0o777
-        try:
-            os.mkdir(path, access_rights)
-        except OSError:
-            print("Creation of the directory %s failed" % path)
-        else:
-            print("Successfully created the directory %s" % path)
     soup = ExtractHTML.urlToHtml(wurl)
     tables = ExtractHTML.get_All_Tables(soup)
     print(f"[+] Found a total of {len(tables)} tables.")
