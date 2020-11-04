@@ -2,6 +2,7 @@ import pandas
 import ExtractHTML
 import os
 
+
 def save_As_Csv(table_name, headers, rows):
     """HTML to CSV for table content of `url` """
     outname = f"{table_name}.csv"
