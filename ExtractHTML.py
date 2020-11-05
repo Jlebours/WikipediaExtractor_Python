@@ -30,18 +30,25 @@ def get_All_Tables(soup):
     return tables
 
 
+# old method of get_headers()
 def get_Table_Headers(table):
     """ Get all headers for table content of `url` """
     headers = []
-    for th in table.find("tr").find_all("th"):
-        headers.append(th.text.strip())
+    if table.find("tr").find_all("th") != [""]:
+        for th in table.find("tr").find_all("th"):
+            headers.append(th.text.strip())
+    else:
+        for td in table.find("tr").find_all("td"):
+            headers.append(td.text.strip())
     return headers
 
 
+# old method of get_rows()
 def get_Table_Rows(table):
     """ Get all row for table content of `url` """
     rows = []
     for tr in table.find_all("tr")[1:]:
+        print(tr.find_all)
         cells = []
         # grab all td tags in this table row
         tds = tr.find_all("td")
@@ -56,4 +63,19 @@ def get_Table_Rows(table):
             for td in tds:
                 cells.append(td.text.strip())
         rows.append(cells)
+    return rows
+
+
+def get_headers(table):
+    """ Get all headers for table content of `url` """
+    headers = []
+    for cells in table.find("tr").find_all(['td', 'th']):
+        headers.append(cells.text.strip())
+    return headers
+
+
+def get_rows(table):
+    rows = []
+    for row in table.find_all('tr')[1:]:
+        rows.append([val.text.strip() for val in row.find_all(['td', 'th'])])
     return rows
