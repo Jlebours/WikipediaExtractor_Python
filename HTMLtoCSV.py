@@ -19,7 +19,7 @@ def convert_csv(tables, name):
 def CreateSummary(nameurl, nbtaburl):
     """
        Create the text file with the summary of the extracted tables
-       output: result.txt
+       output: summary.txt
        :param nameurl: list[DataFrame]
        :param nbtaburl: list[DataFrame]
     """
