@@ -15,7 +15,7 @@ The current objective is to have a better extractor than the other versions.
 The previous versions were in Java and now we have to make it in Python.
 
 ## Getting Started
-clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
+Clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
 
 ## Prerequisites
 ### For Users
