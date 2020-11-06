@@ -18,17 +18,12 @@ The previous versions were in Java and now we have to make it in Python.
 Clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
 
 ## Prerequisites
-### For Users
 * Python interpreter 3.8 or 3.9
 * Python IDE : PyCharm, Visual Studio Code, etc..
 * For installation and test we are inviting you to click on, this below link
 [Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
 
-
-
-
-### For Developers
-After having those prerequisites above you should add these below :
+## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
 * [Pandas](https://pandas.pydata.org/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.
