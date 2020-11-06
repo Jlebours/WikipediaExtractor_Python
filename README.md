@@ -15,13 +15,13 @@ The current objective is to have a better extractor than the other versions.
 The previous versions were in Java and now we have to make it in Python.
 
 ## Getting Started
-clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
+Clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
 
 ## Prerequisites
 ### For Users
 * Python interpreter 3.8 or 3.9
 * Python IDE : PyCharm, Visual Studio Code, etc..
-* for installing and testing we are inviting you to click on, this below link
+* For installation and test we are inviting you to click on, this below link
 [Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
 
 
@@ -44,20 +44,6 @@ built on top of the Python programming language.
 * Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
 ## Authors
-As we have already said it this project has been developed in Java by those students :
-* Jocelin DEGNI
-* Yann ATTOUBE
-* Anderson KONAN
-* Kiko DAGNOGO
-
-This team improved already their work in Java too :
-* Emmanuel CHAUVEL 
-* Narcisse KOUADIO
-* Oceane THELISMA
-* Noussi AMAL
-* Karima GRAMI
-
-Now we develop the extractor in Python :
 * Johan LE BOURSICAUD
 * Léo VARIERAS
 * Rabeaa KESSAL
