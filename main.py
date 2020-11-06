@@ -16,9 +16,8 @@ if __name__ == '__main__':
         print(f"Url {i} on {len(allUrls)}")
         if ExtractHTML.is_url_valid(url):
             tables = ExtractHTML.get_tables(url)
-            print(tables)
-            print(tables == [])
-            if tables:
+            # Wikipedia pages with no tables have a len(tables) == 2
+            if len(tables) > 2:
                 dfs = pandas.read_html(str(tables))
                 HTMLtoCSV.convert_csv(dfs, name)
         else:
