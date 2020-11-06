@@ -6,8 +6,8 @@ import ExtractHTML
 if __name__ == '__main__':
 
     print("Reading url file...")
-    # Two dimensional array string with urls and it's name for each one
     ExtractHTML.open_output()
+    # Two dimensional array string with urls and it's name for each one
     allUrls = ExtractHTML.read_urls()
 
     print(f"You will extract tables from {len(allUrls)} url(s)")
@@ -25,7 +25,6 @@ if __name__ == '__main__':
         print(f"Url {i} on {len(allUrls)}")
         if ExtractHTML.is_url_valid(url):
             tables = ExtractHTML.get_tables(url)
-            # Wikipedia pages with no tables have a len(tables) == 2
             if tables != "[]":
                 try:
                     dfs = pandas.read_html(str(tables))

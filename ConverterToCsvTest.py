@@ -5,6 +5,9 @@ import unittest
 import ExtractHTML
 import HTMLtoCSV
 
+'''
+Before running tests don't forget to run the program ! :) 
+'''
 
 class MyTestCase(unittest.TestCase):
     '''
@@ -57,7 +60,7 @@ class MyTestCase(unittest.TestCase):
         self.assertFalse(filecmp.cmp(f1, f2))
 
     '''
-    Test to compare two differents files
+    Test to compare two identical files
     '''
 
     def test_VeriteTerrain1(self):
@@ -66,7 +69,7 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(filecmp.cmp(f1, f2))
 
     '''
-    Test to compare two identical files
+    Test to compare two differents files
     '''
 
     def test_VeriteTerrain2(self):
