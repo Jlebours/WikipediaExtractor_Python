@@ -1,9 +1,9 @@
+import os
 import urllib.request as u_req
 import requests
 from bs4 import BeautifulSoup
 
 
-# Get a list with urls in "wikiurls.txt"
 def read_urls():
     BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/"
     allUrls = []
@@ -21,7 +21,12 @@ def get_tables(url):
     return tables
 
 
-# No problem entering the URL
 def is_url_valid(url):
     r = requests.head(f"{url}")
     return r.status_code == 200
+
+
+def open_output():
+    csvdir = './output'
+    if not os.path.exists(csvdir):
+        os.mkdir(csvdir)
