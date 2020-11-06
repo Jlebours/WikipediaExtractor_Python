@@ -3,9 +3,7 @@ import urllib.request as u_req
 import requests
 from bs4 import BeautifulSoup
 
-'''
-@return all the url from the wikitext.txt
-'''
+
 def read_urls():
     """
     Returns the complete and valid url of the wikipedia page associated with the page name

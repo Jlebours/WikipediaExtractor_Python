@@ -23,7 +23,6 @@ if __name__ == '__main__':
         print(f"Url {i} on {len(allUrls)}")
         if ExtractHTML.is_url_valid(url):
             tables = ExtractHTML.get_tables(url)
-            # Wikipedia pages with no tables have a len(tables) == 2
             if tables != "[]":
                 try:
                     dfs = pandas.read_html(str(tables))
