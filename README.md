@@ -1,9 +1,9 @@
-# Wikipedia Matrix Python
+# Wikipedia Extractor Python
 
-Wikipedia Matrix is a table extractor by means : HTML.
+Wikipedia Extractor is a table extractor by means : HTML.
 The aim of this project is to create a new version of extractor and compare the results 
 with previous version of the project that have been made
-in the last years by the students of Master degree in order to make a global review. 
+in the last years by the students of Master degree in Java langage in order to make a global review. 
 
 The aim of the project was to extract as many relevant tables as possible from wikipedia links, the output format being csv.
 We must now analyse the quality of the  data extractor HTML in order to
@@ -38,10 +38,10 @@ built on top of the Python programming language.
  
 
 ## Functionalities of  the application
-* extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
-* implementation of some tests to verify a good extraction 
-* statistics on extracted files and tables not taken into account according to the selection criteria of the tables to be extracted
-* automatic testing of file extraction quality , these tests will show also the  weaknesses of the extractor.
+* The extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
+* Implementation of many tests to verify a good extraction 
+* Statistics on extracted tables
+* Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
 ## Authors
 As we have already said it this project has been developed in Java by those students :
@@ -51,14 +51,13 @@ As we have already said it this project has been developed in Java by those stud
 * Kiko DAGNOGO
 
 This team improved already their work in Java too :
-
 * Emmanuel CHAUVEL 
 * Narcisse KOUADIO
 * Oceane THELISMA
 * Noussi AMAL
 * Karima GRAMI
 
-Now we make a review of the project in Python :
+Now we develop the extractor in Python :
 * Johan LE BOURSICAUD
 * Léo VARIERAS
 * Rabeaa KESSAL
