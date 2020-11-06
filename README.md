@@ -35,7 +35,7 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 2. Now run ConverterToCsvTest.py
 3. You can run the tests one by one if you need to by a you right click on its name.
 
-# Output
+## Output
 In the output directory you will find:
 1. Extracted tables with name of url and the number
 2. A file with the summary of extract the tables in result.txt. 
