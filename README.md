@@ -31,9 +31,9 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 4. Find your .csv files in the output directory
 
 ## Test it 
-1. Before to test you have to run the program
-2. Now go in ConverterToCsvTest.py and run it
-3. You can run an only test if you right click on its name
+1. Before test you must run main.py
+2. Now run ConverterToCsvTest.py
+3. You can run the tests one by one if you need to by a you right click on its name.
 
 ## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
