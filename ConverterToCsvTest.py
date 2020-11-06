@@ -9,7 +9,6 @@ import HTMLtoCSV
 Before running tests don't forget to run the program ! :) 
 '''
 
-
 class MyTestCase(unittest.TestCase):
     '''
     Test on internet Connection
@@ -50,7 +49,7 @@ class MyTestCase(unittest.TestCase):
         DIR = 'output'
         lengthOutput = len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
         self.assertEqual(length,lengthOutput)
-    '''
+'''
     '''
     Test to compare two files
     '''
@@ -83,15 +82,23 @@ class MyTestCase(unittest.TestCase):
     '''
 
     def test_differentFiles(self):
+        listOfAlreadycheck = []
         count = 0
         files = os.listdir("output")
         same = False
+        listeString = []
         for name in files:
             for names in files:
                 if not (name == names):
-                    if filecmp.cmp("output/" + name, "output/" + names):
-                        count = count+1
-                        same = True
+                    if (filecmp.cmp("output/" + name, "output/" + names)):
+                        for alreadyCheck in listOfAlreadycheck :
+                            if not((alreadyCheck == [name,names]) or (alreadyCheck == [names, name])):
+                                listOfAlreadycheck.append([name,names])
+                                count = count+1
+                                same = True
+
+
+        self.assertFalse(same)
         print("the number of same files in all the output directory is :")
         print(count)
 
