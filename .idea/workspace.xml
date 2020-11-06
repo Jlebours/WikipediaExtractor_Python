@@ -22,16 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Rebase of the project to integer pandas.read_html() function">
-      <change afterPath="$PROJECT_DIR$/OLD_ExtractHTML.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD_HTMLtoCSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD_main.py" afterDir="false" />
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Made the difference between old and new version">
+      <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractHTML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata/wikiurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/wikiurls.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD_ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD_version/OLD_ExtractHTML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD_HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD_version/OLD_HTMLtoCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD_version/OLD_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Johan\PycharmProjects\WikipediaExtractor_Python\OLD_version" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Johan\PycharmProjects\WikipediaExtractor_Python\inputdata" />
     </key>
@@ -127,7 +128,7 @@
       <workItem from="1604507647329" duration="10669000" />
       <workItem from="1604565291745" duration="1219000" />
       <workItem from="1604567319315" duration="2702000" />
-      <workItem from="1604655700317" duration="1554000" />
+      <workItem from="1604655700317" duration="1788000" />
     </task>
     <task id="LOCAL-00002" summary="test push">
       <created>1604412459082</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604655570008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Made the difference between old and new version">
+      <created>1604657282469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604657282470</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +273,8 @@
     <MESSAGE value="update of main" />
     <MESSAGE value="update of extract table to only have wikitable" />
     <MESSAGE value="Rebase of the project to integer pandas.read_html() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebase of the project to integer pandas.read_html() function" />
+    <MESSAGE value="Made the difference between old and new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the difference between old and new version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1334" y="202" key="#Inspections" timestamp="1604569968513">
@@ -308,29 +317,29 @@
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604656560488" />
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state x="-1736" y="90" key="MergeDialog" timestamp="1604485738294">
+    <state x="-1736" y="90" key="MergeDialog" timestamp="1604657323548">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1736" y="90" key="MergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604485738294" />
-    <state x="-1322" y="285" key="MultipleFileMergeDialog" timestamp="1604485738319">
+    <state x="-1736" y="90" key="MergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657323548" />
+    <state x="-1322" y="285" key="MultipleFileMergeDialog" timestamp="1604657327020">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1322" y="285" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604485738319" />
+    <state x="-1322" y="285" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657327020" />
     <state x="-1459" y="168" key="SettingsEditor" timestamp="1604416944680">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1459" y="168" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604416944680" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339132984" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604655577267">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604657337862">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335356245" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604655577267" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604655573349">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657337862" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604657286060">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335351543" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604655573349" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657286060" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
     <state x="-1253" y="123" width="585" height="801" key="find.popup" timestamp="1604429003313">
       <screen x="-1920" y="4" width="1920" height="1040" />

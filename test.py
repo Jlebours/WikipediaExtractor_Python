@@ -1,4 +1,3 @@
-#Version
 import pandas as pd
 from bs4 import BeautifulSoup
 import urllib.request as u_req
