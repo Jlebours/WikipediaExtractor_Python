@@ -3,7 +3,9 @@ import urllib.request as u_req
 import requests
 from bs4 import BeautifulSoup
 
-
+'''
+@return all the url from the wikitext.txt
+'''
 def read_urls():
     BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/"
     allUrls = []

@@ -18,24 +18,26 @@ The previous versions were in Java and now we have to make it in Python.
 Clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development and testing purposes.
 
 ## Prerequisites
-### For Users
 * Python interpreter 3.8 or 3.9
 * Python IDE : PyCharm, Visual Studio Code, etc..
 * For installation and test we are inviting you to click on, this below link
 [Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
 
+## Use it 
+1. You have to edit wikiurls.txt file to add the name of the wikipedia pages from which you want to extract the tables,
+the name is the part placed after "https://en.wikipedia.org/wiki/".
+2. Run main.py which will automatically extract the tables of names in the file
+3. Show the process in the terminal
+4. Find your .csv files in the output directory
 
-
-
-### For Developers
-After having those prerequisites above you should add these below :
+## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
 * [Pandas](https://pandas.pydata.org/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.
 * [Requests](https://requests.readthedocs.io/en/master/) is an elegant and simple HTTP library for Python, built for human beings.
 * [Os](https://docs.python.org/3/library/os.html/) this module provides a portable way of using operating system dependent functionality
 * [urllib.request ](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.
- 
+* [lxml](https://lxml.de/3.7/) is the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.
 
 ## Functionalities of  the application
 * The extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
@@ -43,21 +45,12 @@ built on top of the Python programming language.
 * Statistics on extracted tables
 * Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
+## Functionalities to develop
+* Analyze the tables to be extracted because some have syntax errors in the wikipedia pages in order to make the necessary modifications before the extraction
+* Speed up the process which can be long for a large number of urls
+* Improve rendering in csv
+
 ## Authors
-As we have already said it this project has been developed in Java by those students :
-* Jocelin DEGNI
-* Yann ATTOUBE
-* Anderson KONAN
-* Kiko DAGNOGO
-
-This team improved already their work in Java too :
-* Emmanuel CHAUVEL 
-* Narcisse KOUADIO
-* Oceane THELISMA
-* Noussi AMAL
-* Karima GRAMI
-
-Now we develop the extractor in Python :
 * Johan LE BOURSICAUD
 * Léo VARIERAS
 * Rabeaa KESSAL
