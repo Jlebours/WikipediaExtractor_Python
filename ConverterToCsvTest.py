@@ -2,8 +2,6 @@ import filecmp
 import os
 import unittest
 
-import pandas
-
 import ExtractHTML
 import HTMLtoCSV
 
@@ -45,15 +43,3 @@ class MyTestCase(unittest.TestCase):
         f1 = "output/Comparison_between_Ido_and_Interlingua-1.csv"
         f2 = "verite/Comparison_between_Ido_and_Interlingua-1 test.csv"
         self.assertTrue(filecmp.cmp(f1, f2))
-
-    def test_differentFiles(self):
-        boolean = False
-        files = os.listdir("output")
-        for name in files:
-            print(name)
-
-
-
-
-
-
