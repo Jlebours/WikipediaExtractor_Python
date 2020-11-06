@@ -8,12 +8,6 @@ import HTMLtoCSV
 
 class MyTestCase(unittest.TestCase):
 
-    def test_sameFiles(self):
-        f1 = "output/Comparison_(grammar)-1.csv"
-        f2 = "output/Comparison_(grammar)-2.csv"
-        self.assertEqual(False, filecmp.cmp(f1, f2))
-
-
     def test_internet(self):
         self.assertEqual(0,os.system('ping www.google.com >> log_ping'))
 
@@ -34,7 +28,21 @@ class MyTestCase(unittest.TestCase):
         print("End of extraction, you can check the output directory :)")
 
 
+    def test_sameFiles(self):
+        f1 = "output/Comparison_(grammar)-1.csv"
+        f2 = "output/Comparison_(grammar)-2.csv"
+        self.assertFalse(filecmp.cmp(f1, f2))
 
+
+    def test_VeriteTerrain1(self):
+        f1 = "output/Comparison_between_Esperanto_and_Ido-1.csv"
+        f2 = "verite/Comparison_between_Esperanto_and_Ido-1 test.csv"
+        self.assertFalse(filecmp.cmp(f1, f2))
+
+    def test_VeriteTerrain2(self):
+        f1 = "output/Comparison_between_Ido_and_Interlingua-1.csv"
+        f2 = "verite/Comparison_between_Ido_and_Interlingua-1 test.csv"
+        self.assertTrue(filecmp.cmp(f1, f2))
 
 
 
