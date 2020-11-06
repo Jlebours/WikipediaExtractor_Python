@@ -36,10 +36,8 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 3. You can run the tests one by one if you need to by a you right click on its name.
 
 ## Output
-In the output directory you will find:
-1. Extracted tables with name of url and the number
-2. A file with the summary of extract the tables in result.txt. 
-    The structure of summary.txt -> Url name + number of tables  
+* In the output directory you will find the extracted tables with name of url and the number.
+* At the root you will find a file with the summary of extracted tables in summary.txt. 
 
 ## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
