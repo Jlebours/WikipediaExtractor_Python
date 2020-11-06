@@ -51,14 +51,13 @@ As we have already said it this project has been developed in Java by those stud
 * Kiko DAGNOGO
 
 This team improved already their work in Java too :
-
 * Emmanuel CHAUVEL 
 * Narcisse KOUADIO
 * Oceane THELISMA
 * Noussi AMAL
 * Karima GRAMI
 
-Now we make a review of the project in Python :
+Now we develop the extractor in Python :
 * Johan LE BOURSICAUD
 * Léo VARIERAS
 * Rabeaa KESSAL
