@@ -1,12 +1,13 @@
-# Wikipedia Matrix
+# Wikipedia Matrix Python
 
-Wikipedia Matrix is a table extractor by two means : HTML and WIKITEXT.
-The aim of this project is to take up the first two versions of the project that have been made
-in the last two years by the students of Master degree in order to make a global review. 
+Wikipedia Matrix is a table extractor by means : HTML.
+The aim of this project is to create a new version of extractor and compare the results 
+with previous version of the project that have been made
+in the last years by the students of Master degree in order to make a global review. 
 
 The aim of the project was to extract as many relevant tables as possible from wikipedia links, the output format being csv.
-We must now analyse the quality of the two data extractors HTML and WIKITEXT in order to
-draw conclusions and propose areas for improvement while correcting any problems that arise. 
+We must now analyse the quality of the  data extractor HTML in order to
+draw conclusions and propose areas for improvement while correcting any problems that arise.
 
 Like any project, we have several different versions and the aim is to improve it,
 from version to version over time to make it more powerful and better than the other versions. 
@@ -18,7 +19,7 @@ clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development 
 
 ## Prerequisites
 ### For Users
-* Python interpreter 3.9
+* Python interpreter 3.8 or 3.9
 * Python IDE : PyCharm, Visual Studio Code, etc..
 * for installing and testing we are inviting you to click on, this below link
 [Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
@@ -32,7 +33,9 @@ After having those prerequisites above you should add these below :
 * [Pandas](https://pandas.pydata.org/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.
 * [Requests](https://requests.readthedocs.io/en/master/) is an elegant and simple HTTP library for Python, built for human beings.
-
+* [Os](https://docs.python.org/3/library/os.html/) this module provides a portable way of using operating system dependent functionality
+* [urllib.request ](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.
+ 
 
 ## Functionalities of  the application
 * extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
