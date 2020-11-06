@@ -5,6 +5,9 @@ import unittest
 import ExtractHTML
 import HTMLtoCSV
 
+'''
+Before running tests don't forget to run the program ! :) 
+'''
 
 class MyTestCase(unittest.TestCase):
     '''

@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Commented all methods">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConverterToCsvTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterToCsvTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="5b00ef8d-0389-402d-81aa-8ebb0e7b41b4" />
+  <component name="JupyterTrust" id="f5937bcf-eb12-437b-b94b-6e1551c54bfb" />
   <component name="ProjectId" id="1jkCKNxjwRR0gTtRf6y5HiWTrLs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,7 +74,7 @@
       <recent name="C:\Users\Johan\PycharmProjects\WikipediaExtractor_Python\inputdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_internet">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WikipediaExtractor_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,6 +134,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for ConverterToCsvTest.MyTestCase.test_internet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="WikipediaExtractor_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ConverterToCsvTest.MyTestCase.test_internet&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WikipediaExtractor_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,9 +169,11 @@
       <item itemvalue="Python.test" />
       <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles" />
       <item itemvalue="Python tests.Unittests in test2.py" />
+      <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_internet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_internet" />
         <item itemvalue="Python tests.Unittests in test2.py" />
         <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles" />
         <item itemvalue="Python.test" />
@@ -451,10 +470,10 @@
     <state x="212" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1604675725630" />
     <state x="-1459" y="168" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604688773218" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339132984" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604689071151">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604689518923">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604673159965" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604689518923" />
     <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604689071151" />
     <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604689067232">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -473,18 +492,18 @@
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604429945474" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$HTMLtoCSV.coverage" NAME="HTMLtoCSV Coverage Results" MODIFIED="1604671744528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604687353538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_AllUrls.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_AllUrls Coverage Results" MODIFIED="1604679025781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_test2_py.coverage" NAME="Unittests in test2.py Coverage Results" MODIFIED="1604684478254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_Algo.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_Algo Coverage Results" MODIFIED="1604679032702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_differentFiles.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles Coverage Results" MODIFIED="1604679249613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain2.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain2 Coverage Results" MODIFIED="1604661336871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$ExtractHTML.coverage" NAME="ExtractHTML Coverage Results" MODIFIED="1604671740448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain1.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain1 Coverage Results" MODIFIED="1604674355797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_ConverterToCsvTest_py.coverage" NAME="Unittests in ConverterToCsvTest.py Coverage Results" MODIFIED="1604679002225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_internet.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_internet Coverage Results" MODIFIED="1604679018398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_differentFiles.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles Coverage Results" MODIFIED="1604683970183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604674507886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_Algo.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_Algo Coverage Results" MODIFIED="1604679032702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_AllUrls.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_AllUrls Coverage Results" MODIFIED="1604679025781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$ExtractHTML.coverage" NAME="ExtractHTML Coverage Results" MODIFIED="1604679371496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$HTMLtoCSV.coverage" NAME="HTMLtoCSV Coverage Results" MODIFIED="1604671744528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604686849132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain1.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain1 Coverage Results" MODIFIED="1604686221475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_test2_py.coverage" NAME="Unittests in test2.py Coverage Results" MODIFIED="1604684478254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Extract.coverage" NAME="Extract Coverage Results" MODIFIED="1604652971234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_ConverterToCsvTest_py.coverage" NAME="Unittests in ConverterToCsvTest.py Coverage Results" MODIFIED="1604507735852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604670015750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
