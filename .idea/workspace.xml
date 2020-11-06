@@ -26,9 +26,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata/wikiurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/wikiurls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,9 +373,10 @@
     </state>
     <state x="517" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1604685104453" />
     <state x="-1193" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428941933" />
-    <state x="-1230" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604428968991">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="491" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604689703907">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="491" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1604689703907" />
     <state x="-1230" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428968991" />
     <state x="664" y="129" width="675" height="741" key="EnvironmentVariablesDialog" timestamp="1604681541561">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -387,31 +386,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="134" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604681020462" />
-    <state width="1323" height="91" key="GridCell.Tab.0.bottom" timestamp="1604687877712">
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1604689755090">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="91" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604689755090" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970201" />
     <state width="1877" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1323" height="91" key="GridCell.Tab.0.center" timestamp="1604687877712">
+    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1604689755090">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="91" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
+    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604689755090" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1323" height="91" key="GridCell.Tab.0.left" timestamp="1604687877711">
+    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1604689755089">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="91" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604687877711" />
+    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604689755089" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1323" height="91" key="GridCell.Tab.0.right" timestamp="1604687877712">
+    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1604689755090">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="91" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
+    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604689755090" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
@@ -447,9 +446,10 @@
     <state x="298" y="24" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604682159617" />
     <state x="-1459" y="168" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604416944680" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339132984" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604674242253">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="393" y="187" key="Vcs.Push.Dialog.v2" timestamp="1604688672289">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="393" y="187" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1604688672289" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604673159965" />
     <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604674242253" />
     <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604684282982">
@@ -474,7 +474,7 @@
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain1.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain1 Coverage Results" MODIFIED="1604674355797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_AllUrls.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_AllUrls Coverage Results" MODIFIED="1604679025781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain2.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain2 Coverage Results" MODIFIED="1604661336871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604687877700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604689755078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_Algo.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_Algo Coverage Results" MODIFIED="1604679032702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604668058324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_internet.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_internet Coverage Results" MODIFIED="1604679018398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
