@@ -82,14 +82,23 @@ class MyTestCase(unittest.TestCase):
     '''
 
     def test_differentFiles(self):
+        listOfAlreadycheck = []
         count = 0
         files = os.listdir("output")
         same = False
+        listeString = []
         for name in files:
             for names in files:
                 if not (name == names):
                     if (filecmp.cmp("output/" + name, "output/" + names)):
-                        count = count+1
-                        same = True
-        print("the number of same files in all the output directory is :" + count)
+                        for alreadyCheck in listOfAlreadycheck :
+                            if not((alreadyCheck == [name,names]) or (alreadyCheck == [names, name])):
+                                listOfAlreadycheck.append([name,names])
+                                count = count+1
+                                same = True
+
+
+        self.assertFalse(same)
+        print("the number of same files in all the output directory is :")
+        print(count)
 
