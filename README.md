@@ -35,7 +35,7 @@ built on top of the Python programming language.
 * [Requests](https://requests.readthedocs.io/en/master/) is an elegant and simple HTTP library for Python, built for human beings.
 * [Os](https://docs.python.org/3/library/os.html/) this module provides a portable way of using operating system dependent functionality
 * [urllib.request ](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.
- 
+* [lxml](https://lxml.de/3.7/) is the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.
 
 ## Functionalities of  the application
 * The extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory

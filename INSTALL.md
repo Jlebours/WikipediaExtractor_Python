@@ -19,5 +19,6 @@
  * pandas : pip install pandas
  * Beautiful Soup : pip install bs4
  * requests : pip install requests
+ * lxml : pip install lxml
 
  
