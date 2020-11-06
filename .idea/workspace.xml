@@ -22,12 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Add rstrip('\n') to remove \n form urls">
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Made the difference between old and new version">
+      <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractHTML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="5b00ef8d-0389-402d-81aa-8ebb0e7b41b4" />
+  <component name="JupyterTrust" id="0593e18d-3747-488b-b26a-c2f45816651d" />
   <component name="ProjectId" id="1jkCKNxjwRR0gTtRf6y5HiWTrLs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +77,7 @@
       <recent name="C:\Users\Johan\PycharmProjects\WikipediaExtractor_Python\inputdata" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WikipediaExtractor_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,9 +85,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -96,6 +100,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WikipediaExtractor_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -126,8 +161,7 @@
       <workItem from="1604507647329" duration="10669000" />
       <workItem from="1604565291745" duration="1219000" />
       <workItem from="1604567319315" duration="2702000" />
-      <workItem from="1604655700317" duration="8160000" />
-      <workItem from="1604668480367" duration="215000" />
+      <workItem from="1604655700317" duration="1892000" />
     </task>
     <task id="LOCAL-00002" summary="test push">
       <created>1604412459082</created>
@@ -248,28 +282,7 @@
       <option name="project" value="LOCAL" />
       <updated>1604657497200</updated>
     </task>
-    <task id="LOCAL-00019" summary="Add information on the nb of tables extracted in the main">
-      <created>1604657609746</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604657609746</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Add rstrip('\n') to remove \n form urls">
-      <created>1604660630772</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1604660630772</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Add rstrip('\n') to remove \n form urls">
-      <created>1604660643627</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1604660643627</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,9 +314,7 @@
     <MESSAGE value="update of extract table to only have wikitable" />
     <MESSAGE value="Rebase of the project to integer pandas.read_html() function" />
     <MESSAGE value="Made the difference between old and new version" />
-    <MESSAGE value="Add information on the nb of tables extracted in the main" />
-    <MESSAGE value="Add rstrip('\n') to remove \n form urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add rstrip('\n') to remove \n form urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the difference between old and new version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1334" y="202" key="#Inspections" timestamp="1604569968513">
@@ -318,6 +329,10 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1121" y="432" key="#VCS_History_Cache_Settings/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428638923" />
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604666848311">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604666848311" />
     <state x="-1193" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604428941933">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
@@ -326,25 +341,29 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1230" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428968991" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1604663866738">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom" timestamp="1604668332834">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604663866738" />
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604668332834" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657587187" />
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1604663866738">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1323" height="217" key="GridCell.Tab.0.center" timestamp="1604668332834">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604663866738" />
+    <state width="1323" height="217" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604668332834" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657587186" />
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1604663866737">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1323" height="217" key="GridCell.Tab.0.left" timestamp="1604668332833">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604663866737" />
+    <state width="1323" height="217" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604668332833" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657587186" />
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1604663866738">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1323" height="217" key="GridCell.Tab.0.right" timestamp="1604668332834">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604663866738" />
+    <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604668332834" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657587186" />
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
     <state x="-1736" y="90" key="MergeDialog" timestamp="1604657323548">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -359,16 +378,16 @@
     </state>
     <state x="-1459" y="168" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604416944680" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339132984" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604660655687">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604657508300">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335356245" />
-    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604660655687" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604660648495">
+    <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657508300" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604657501947">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604335351543" />
-    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604660648495" />
+    <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657501947" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
     <state x="-1253" y="123" width="585" height="801" key="find.popup" timestamp="1604429003313">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -380,7 +399,9 @@
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604429945474" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604668522623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604653008493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Extract.coverage" NAME="Extract Coverage Results" MODIFIED="1604652971234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604668332809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604668058324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_ConverterToCsvTest_py.coverage" NAME="Unittests in ConverterToCsvTest.py Coverage Results" MODIFIED="1604507735852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
