@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 def read_urls():
     BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/"
     allUrls = []
-    with open("inputdata/test.txt", "r") as urls:
+    with open("inputdata/wikiurls.txt", "r") as urls:
         for url in urls:
             finalUrl = BASE_WIKIPEDIA_URL + url
             allUrls.append([finalUrl.rstrip("\n"), url.rstrip("\n")])
