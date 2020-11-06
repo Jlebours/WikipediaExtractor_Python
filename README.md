@@ -1,11 +1,11 @@
 # Wikipedia Matrix
 
-Wikipedia Matrix is a table extractor by two means : HTML and WIKITEXT.
+Wikipedia Matrix is a table extractor by two means : HTML.
 The aim of this project is to take up the first two versions of the project that have been made
 in the last two years by the students of Master degree in order to make a global review. 
 
 The aim of the project was to extract as many relevant tables as possible from wikipedia links, the output format being csv.
-We must now analyse the quality of the two data extractors HTML and WIKITEXT in order to
+We must now analyse the quality of the two data extractors HTML in order to
 draw conclusions and propose areas for improvement while correcting any problems that arise. 
 
 Like any project, we have several different versions and the aim is to improve it,
