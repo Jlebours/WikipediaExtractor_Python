@@ -18,4 +18,4 @@
 Open the terminal and write the following commands for each library :
  * lxml : pip install lxml
  
-Other libraries are imported directly in the project but you can also install ther.
+Other libraries are imported directly in the project but you can also install them.

@@ -3,7 +3,7 @@
 Wikipedia Extractor is a table extractor by means : HTML.
 The aim of this project is to create a new version of extractor and compare the results 
 with previous version of the project that have been made
-in the last years by the students of Master degree in Java langage in order to make a global review. 
+in the last years by the students of Master degree in Java language in order to make a global review. 
 
 The aim of the project was to extract as many relevant tables as possible from wikipedia links, the output format being csv.
 We must now analyse the quality of the  data extractor HTML in order to
@@ -29,6 +29,11 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 2. Run main.py which will automatically extract the tables of names in the file
 3. Show the process in the terminal
 4. Find your .csv files in the output directory
+
+## Test it 
+1. Before to test you have to run the program
+2. Now go in ConverterToCsvTest.py and run it
+3. You can run an only test if you right click on its name
 
 ## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
