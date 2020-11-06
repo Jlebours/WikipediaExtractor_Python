@@ -13,5 +13,6 @@ if __name__ == '__main__':
       #  HTMLtoCSV.convert_csv(tables, name)
        # nbTables += len(tables)
     #print(f"You extracted a total of {nbTables} table(s)")
-    print("End of extraction, you can check the output directory :)")
+
     test.UrltoCsv('https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido')
+    print("End of extraction, you can check the output directory :)")
