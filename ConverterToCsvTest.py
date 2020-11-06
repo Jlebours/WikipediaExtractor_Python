@@ -91,6 +91,5 @@ class MyTestCase(unittest.TestCase):
                     if (filecmp.cmp("output/" + name, "output/" + names)):
                         count = count+1
                         same = True
-        print("the name of same files in all the output directory is :" + count)
-        self.assertFalse(same)
-        #if this test doesn't work, it's because it's possible to have same tables, the count will show us how many same files there are
+        print("the number of same files in all the output directory is :" + count)
+
