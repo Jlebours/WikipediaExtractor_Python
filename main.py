@@ -1,3 +1,4 @@
+import pandas
 import HTMLtoCSV
 import ExtractHTML
 
@@ -8,10 +9,19 @@ if __name__ == '__main__':
     print(f"You will extract tables from {len(allUrls)} url(s)")
     print("Starting extraction...")
     nbTables = 0
+    nbInvalidUrl = 0
+    i = 0
     for url, name in allUrls:
+        i += 1
+        print(f"Url {i} on {len(allUrls)}")
         if ExtractHTML.is_url_valid(url):
             tables = ExtractHTML.get_tables(url)
-            HTMLtoCSV.convert_csv(tables, name)
-            nbTables += len(tables)
-    print(f"You extracted a total of {nbTables} table(s)")
+            print(tables)
+            print(tables == [])
+            if tables:
+                dfs = pandas.read_html(str(tables))
+                HTMLtoCSV.convert_csv(dfs, name)
+        else:
+            nbInvalidUrl += 1
+    print(f"{nbInvalidUrl} url(s) was invalid")
     print("End of extraction, you can check the output directory :)")
