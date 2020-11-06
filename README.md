@@ -21,7 +21,7 @@ clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development 
 * Python interpreter 3.9
 * Python IDE : PyCharm, Visual Studio Code, etc..
 * for installing and testing we are inviting you to click on, this below link
-[Install.md]()
+[Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
 
 
 
