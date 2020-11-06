@@ -37,7 +37,7 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 
 # Output
 In the output directory you will find:
-1. Extract the tables of names in the file
+1. Extracted tables with name of url and the number
 2. A file with the summary of extract the tables in result.txt. 
     The structure of summary.txt -> Url name + number of tables  
 
