@@ -17,11 +17,17 @@ def convert_csv(tables, name):
 
 
 def CreateSummary(nameurl, nbtaburl):
-    file = open("output/result.txt", "w")
-    file.write("Results" + os.linesep)
+    """
+       Create the text file with the summary of the extracted tables
+       output: summary.txt
+       :param nameurl: list[DataFrame]
+       :param nbtaburl: list[DataFrame]
+    """
+
+    file = open("output/summary.txt", "w")
+    file.write("Summary of the extracted tables" + os.linesep)
+
     for i in range(len(nbtaburl)):
-        a = nameurl[i]
-        b = str(nbtaburl[i])
-        file.write(a + " " + b + os.linesep)
+        file.write(nameurl[i] + ", " + str(nbtaburl[i]) + os.linesep)
 
     file.close()

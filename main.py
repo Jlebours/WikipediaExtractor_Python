@@ -35,7 +35,7 @@ if __name__ == '__main__':
                 else:
 
                     k += 1  # Number url that contains tables
-                    a = HTMLtoCSV.convert_csv(dfs, name)  # return the number of tables
+                    a = HTMLtoCSV.convert_csv(dfs, name)  # return the number of tables for URL
 
                     nbtaburl.append(k)
                     nbtaburl[k - 1] = a
