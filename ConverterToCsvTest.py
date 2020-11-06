@@ -45,7 +45,7 @@ class MyTestCase(unittest.TestCase):
     Test to compare two files
     '''
     def test_sameFiles(self):
-        f1 = "output/Comparison_(grammar)-1.csv"
+        f1 = "output/Comparison_(grammar)_1.csv"
         f2 = "output/Comparison_(grammar)-2.csv"
         self.assertFalse(filecmp.cmp(f1, f2))
 
@@ -53,7 +53,7 @@ class MyTestCase(unittest.TestCase):
     Test to compare two differents files
     '''
     def test_VeriteTerrain1(self):
-        f1 = "output/Comparison_between_Esperanto_and_Ido-1.csv"
+        f1 = "output/Comparison_(grammar)_1.csv"
         f2 = "verite/Comparison_between_Esperanto_and_Ido-1 test.csv"
         self.assertFalse(filecmp.cmp(f1, f2))
 
