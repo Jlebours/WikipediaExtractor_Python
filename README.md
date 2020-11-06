@@ -44,20 +44,6 @@ built on top of the Python programming language.
 * Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
 ## Authors
-As we have already said it this project has been developed in Java by those students :
-* Jocelin DEGNI
-* Yann ATTOUBE
-* Anderson KONAN
-* Kiko DAGNOGO
-
-This team improved already their work in Java too :
-* Emmanuel CHAUVEL 
-* Narcisse KOUADIO
-* Oceane THELISMA
-* Noussi AMAL
-* Karima GRAMI
-
-Now we develop the extractor in Python :
 * Johan LE BOURSICAUD
 * Léo VARIERAS
 * Rabeaa KESSAL
