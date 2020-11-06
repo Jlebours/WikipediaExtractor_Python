@@ -46,5 +46,10 @@ class MyTestCase(unittest.TestCase):
 
     def test_differentFiles(self):
         files = os.listdir("output")
+        same = False
         for name in files:
-            print(name)
+            for names in files:
+                if not (name == names):
+                    if (filecmp.cmp("output/" + name, "output/" + names)):
+                        same = True
+        self.assertFalse(same)
