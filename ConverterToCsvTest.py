@@ -44,8 +44,7 @@ class MyTestCase(unittest.TestCase):
         f2 = "verite/Comparison_between_Ido_and_Interlingua-1 test.csv"
         self.assertTrue(filecmp.cmp(f1, f2))
 
-
-
-
-
-
+    def test_differentFiles(self):
+        files = os.listdir("output")
+        for name in files:
+            print(name)
