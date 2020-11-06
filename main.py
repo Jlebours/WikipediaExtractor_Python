@@ -29,7 +29,7 @@ if __name__ == '__main__':
                     print(f"A wikitable in the url {i} : {name} have a syntax problem, so it can't extract it")
                 else:
                     nbtabs = HTMLtoCSV.convert_csv(dfs, name)  # return the number of tables
-                    # The following is for the creation of the results file
+                    # The following is for the creation of the summary file
                     k += 1  # Number url that contains tables
                     nbtaburl.append(k)
                     nbtaburl[k - 1] = nbtabs
@@ -39,7 +39,7 @@ if __name__ == '__main__':
             nbInvalidUrl += 1
     # Create summary of obtained tables (list url, list tables number)
     HTMLtoCSV.get_summary(nameurl, nbtaburl)
-    print(f"You extracted a total of {len(os.listdir('./output'))-1} table(s)")
-    print("You can find the summary of the extraction at the end of the output directory")
+    print(f"You extracted a total of {len(os.listdir('./output'))} table(s)")
+    print("You can find the summary (summary.txt) at the root of the project")
     print(f"{nbInvalidUrl} url(s) was invalid")
     print("End of extraction, you can check the output directory :)")
