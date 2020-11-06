@@ -50,7 +50,7 @@ class MyTestCase(unittest.TestCase):
         DIR = 'output'
         lengthOutput = len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
         self.assertEqual(length,lengthOutput)
-'''
+    '''
     '''
     Test to compare two files
     '''
@@ -89,7 +89,7 @@ class MyTestCase(unittest.TestCase):
         for name in files:
             for names in files:
                 if not (name == names):
-                    if (filecmp.cmp("output/" + name, "output/" + names)):
+                    if filecmp.cmp("output/" + name, "output/" + names):
                         count = count+1
                         same = True
         print("the number of same files in all the output directory is :")
