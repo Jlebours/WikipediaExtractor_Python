@@ -38,10 +38,10 @@ built on top of the Python programming language.
  
 
 ## Functionalities of  the application
-* extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
-* implementation of some tests to verify a good extraction 
-* statistics on extracted files and tables not taken into account according to the selection criteria of the tables to be extracted
-* automatic testing of file extraction quality , these tests will show also the  weaknesses of the extractor.
+* The extraction of csv files through tables from wikipedia pages whose urls are in the wikiurls.txt file of the inputdata directory
+* Implementation of many tests to verify a good extraction 
+* Statistics on extracted tables
+* Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
 ## Authors
 As we have already said it this project has been developed in Java by those students :
