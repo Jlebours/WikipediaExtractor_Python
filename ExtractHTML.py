@@ -1,11 +1,31 @@
 # get HTML code via URL
 # Implementation references : thepythoncode.com/article/convert-html-tables-into-csv-files-in-python
-from bs4 import BeautifulSoup as bs  # Navigate in HTML
+import urllib.request as u_req
+import pandas
 import requests
+from bs4 import BeautifulSoup
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
 # US english
 LANGUAGE = "en-US,en;q=0.5"
+
+
+def read_urls():
+    BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/"
+    allUrls = []
+    with open("inputdata/test.txt", "r") as urls:
+        for url in urls:
+            finalUrl = BASE_WIKIPEDIA_URL + url
+            allUrls.append([finalUrl, url])
+    return allUrls
+
+
+def get_tables(url):
+    html = u_req.urlopen(url).read().decode("utf-8")
+    bs = BeautifulSoup(html, 'lxml')
+    tables = str(bs.find_all('table', {'class': 'wikitable'}))
+    dfs = pandas.read_html(tables)
+    return dfs
 
 
 def urlToHtml(url):
@@ -20,7 +40,7 @@ def urlToHtml(url):
     # make the request
     html = session.get(url)
     # return the soup
-    return bs(html.content, "html.parser")
+    return BeautifulSoup(html.content, "html.parser")
 
 
 def get_All_Tables(soup):
@@ -34,12 +54,8 @@ def get_All_Tables(soup):
 def get_Table_Headers(table):
     """ Get all headers for table content of `url` """
     headers = []
-    if table.find("tr").find_all("th") != [""]:
-        for th in table.find("tr").find_all("th"):
-            headers.append(th.text.strip())
-    else:
-        for td in table.find("tr").find_all("td"):
-            headers.append(td.text.strip())
+    for th in table.find("tr").find_all("th"):
+        headers.append(th.text.strip())
     return headers
 
 
@@ -67,10 +83,9 @@ def get_Table_Rows(table):
 
 
 def get_headers(table):
-    """ Get all headers for table content of `url` """
     headers = []
-    for cells in table.find("tr").find_all(['td', 'th']):
-        headers.append(cells.text.strip())
+    for column in table.find("tr").find_all(['td', 'th']):
+        headers.append(column.text.strip())
     return headers
 
 
