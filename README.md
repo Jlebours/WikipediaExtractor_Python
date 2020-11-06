@@ -35,6 +35,12 @@ the name is the part placed after "https://en.wikipedia.org/wiki/".
 2. Now run ConverterToCsvTest.py
 3. You can run the tests one by one if you need to by a you right click on its name.
 
+# Output
+In the output directory you will find:
+1. Extract the tables of names in the file
+2. A file with the summary of extract the tables in result.txt. 
+    The structure of summary.txt -> Url name + number of tables  
+
 ## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
 * [Pandas](https://pandas.pydata.org/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
