@@ -7,9 +7,10 @@ if __name__ == '__main__':
     allUrls = ExtractHTML.read_urls()
     print(f"You will extract tables from {len(allUrls)} urls")
     print("Starting extraction...")
+    nbTables = 0
     for url, name in allUrls:
         tables = ExtractHTML.get_tables(url)
         HTMLtoCSV.convert_csv(tables, name)
+        nbTables += len(tables)
+    print(f"You extracted a total of {nbTables} tables")
     print("End of extraction, you can check the output directory :)")
-
-
