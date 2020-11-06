@@ -1,9 +1,9 @@
-# Wikipedia Matrix Python
+# Wikipedia Extractor Python
 
-Wikipedia Matrix is a table extractor by means : HTML.
+Wikipedia Extractor is a table extractor by means : HTML.
 The aim of this project is to create a new version of extractor and compare the results 
 with previous version of the project that have been made
-in the last years by the students of Master degree in order to make a global review. 
+in the last years by the students of Master degree in Java langage in order to make a global review. 
 
 The aim of the project was to extract as many relevant tables as possible from wikipedia links, the output format being csv.
 We must now analyse the quality of the  data extractor HTML in order to
