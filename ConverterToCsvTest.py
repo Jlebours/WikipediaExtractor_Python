@@ -1,7 +1,9 @@
 import filecmp
 import os
 import unittest
+
 import ExtractHTML
+import HTMLtoCSV
 
 '''
 Before running tests don't forget to run the program ! :) 
@@ -30,7 +32,7 @@ class MyTestCase(unittest.TestCase):
         # self.assertEqual(result, allUrls)
 
     '''
-    Test in comment cause it was not working due to the main that we have to launch in console
+    Test in comment cause it was not working due to the main that we have to launch in konsole
 
     def test_Algo(self):
 
@@ -48,7 +50,7 @@ class MyTestCase(unittest.TestCase):
         DIR = 'output'
         lengthOutput = len([name for name in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, name))])
         self.assertEqual(length,lengthOutput)
-    '''
+'''
     '''
     Test to compare two files
     '''
@@ -88,8 +90,8 @@ class MyTestCase(unittest.TestCase):
             for names in files:
                 if not (name == names):
                     if (filecmp.cmp("output/" + name, "output/" + names)):
-                        count = count + 1
+                        count = count+1
                         same = True
-        print("the name of same files in all the output directory is :" + count)
-        self.assertFalse(same)
-        # if this test doesn't work, it's because it's possible to have same tables, the count will show us how many same files there are
+        print("the number of same files in all the output directory is :")
+        print(count)
+
