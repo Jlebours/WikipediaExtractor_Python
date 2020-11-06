@@ -6,8 +6,6 @@ def convert_csv(tables, name):
     csvdir = './output'
     if not os.path.exists(csvdir):
         os.mkdir(csvdir)
-    i = 0
-    for table in tables:
-        i += 1
+    for i, table in enumerate(tables, start=1):
         fullname = os.path.join(csvdir, csvname) + f"{i}.csv"
         table.to_csv(fullname, index=False)
