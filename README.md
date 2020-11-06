@@ -43,6 +43,11 @@ built on top of the Python programming language.
 * Statistics on extracted tables
 * Automatic testing of file extraction quality, these tests will show also the weaknesses of the extractor.
 
+## Functionalities to develop
+* Analyze the tables to be extracted because some have syntax errors in the wikipedia pages in order to make the necessary modifications before the extraction
+* Speed up the process which can be long for a large number of urls
+* Improve rendering in csv
+
 ## Authors
 * Johan LE BOURSICAUD
 * Léo VARIERAS
