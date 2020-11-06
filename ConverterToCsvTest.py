@@ -91,5 +91,6 @@ class MyTestCase(unittest.TestCase):
                     if (filecmp.cmp("output/" + name, "output/" + names)):
                         count = count+1
                         same = True
-        print("the number of same files in all the output directory is :" + count)
+        print("the number of same files in all the output directory is :")
+        print(count)
 

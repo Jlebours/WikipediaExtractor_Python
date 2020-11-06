@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Update README.md">
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Update ConverterToCsvTest.py">
+      <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConverterToCsvTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterToCsvTest.py" afterDir="false" />
     </list>
@@ -182,9 +183,9 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles" />
-      <item itemvalue="Python tests.Unittests in test2.py" />
       <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_internet" />
       <item itemvalue="Python tests.Unittests in ConverterToCsvTest.py" />
+      <item itemvalue="Python tests.Unittests in test2.py" />
     </list>
     <recent_temporary>
       <list>
@@ -382,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604690394689</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update ConverterToCsvTest.py">
+      <created>1604691053826</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604691053826</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,9 +436,9 @@
     <MESSAGE value="&#10;Update" />
     <MESSAGE value="Final version of extractor -&gt; 1685 tables for 336 urls" />
     <MESSAGE value="Commented all methods" />
-    <MESSAGE value="Update ConverterToCsvTest.py" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Update ConverterToCsvTest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ConverterToCsvTest.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1334" y="202" key="#Inspections" timestamp="1604569968513">
@@ -487,14 +495,16 @@
     <state width="1877" height="57" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604690778602" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604687018306" />
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state x="-1736" y="90" key="MergeDialog" timestamp="1604657323548">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1604691069857">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604691069857" />
     <state x="-1736" y="90" key="MergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657323548" />
-    <state x="-1322" y="285" key="MultipleFileMergeDialog" timestamp="1604688764672">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1604691077539">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="425" y="208" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1604675535174" />
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604691077539" />
     <state x="-1322" y="285" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604688764672" />
     <state x="-1459" y="168" key="SettingsEditor" timestamp="1604688773218">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -506,16 +516,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="236" key="VCS.ChangeListViewerDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604690755874" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604690402141">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604691084764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604690402141" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604691084764" />
     <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604689071151" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604690752614">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604691055797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1604675640077" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604690752614" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604691055797" />
     <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604689067232" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
     <state x="-1253" y="123" width="585" height="801" key="find.popup" timestamp="1604429003313">
