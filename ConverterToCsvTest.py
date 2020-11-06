@@ -7,6 +7,7 @@ import ExtractHTML
 Before running tests don't forget to run the program ! :) 
 '''
 
+
 class MyTestCase(unittest.TestCase):
     '''
     Test on internet Connection
