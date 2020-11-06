@@ -1,5 +1,4 @@
 # get HTML code via URL
-# Implementation references : thepythoncode.com/article/convert-html-tables-into-csv-files-in-python
 from bs4 import BeautifulSoup as bs  # Navigate in HTML
 import requests
 
