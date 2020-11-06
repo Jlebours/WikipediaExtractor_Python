@@ -25,7 +25,9 @@
     <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WikipediaExtractor_Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConverterToCsvTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterToCsvTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLtoCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLtoCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputdata/wikiurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/wikiurls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="f5937bcf-eb12-437b-b94b-6e1551c54bfb" />
+  <component name="JupyterTrust" id="0593e18d-3747-488b-b26a-c2f45816651d" />
   <component name="ProjectId" id="1jkCKNxjwRR0gTtRf6y5HiWTrLs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,17 +77,17 @@
       <recent name="C:\Users\Johan\PycharmProjects\WikipediaExtractor_Python\inputdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WikipediaExtractor_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Xabi0u\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -143,7 +145,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -363,15 +364,16 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1121" y="432" key="#VCS_History_Cache_Settings/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428638923" />
-    <state x="193" y="53" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604682186447">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604684387834">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604675814149" />
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604684387834" />
     <state x="193" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604682186447" />
     <state x="-1727" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604674265141" />
-    <state x="-1193" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604428941933">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state x="517" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604685104453">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="517" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1604685104453" />
     <state x="-1193" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604428941933" />
     <state x="-1230" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604428968991">
       <screen x="-1920" y="4" width="1920" height="1040" />
@@ -385,34 +387,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="134" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604681020462" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604683970201">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="91" key="GridCell.Tab.0.bottom" timestamp="1604687877712">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="347" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604675750201" />
+    <state width="1323" height="91" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970201" />
     <state width="1877" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604683970200">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="91" key="GridCell.Tab.0.center" timestamp="1604687877712">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="347" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604675750201" />
+    <state width="1323" height="91" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604683970200">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="91" key="GridCell.Tab.0.left" timestamp="1604687877711">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="347" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604675750201" />
+    <state width="1323" height="91" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604687877711" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604683970200">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="91" key="GridCell.Tab.0.right" timestamp="1604687877712">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="347" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604675750201" />
+    <state width="1323" height="91" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604687877712" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604683970200" />
     <state width="1877" height="572" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604675251273" />
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1604514094205" />
+    <state width="1311" height="238" key="GridCell.Tab.1.bottom" timestamp="1604685127475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1311" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604685127475" />
+    <state width="1311" height="238" key="GridCell.Tab.1.center" timestamp="1604685127475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1311" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1604685127475" />
+    <state width="1311" height="238" key="GridCell.Tab.1.left" timestamp="1604685127475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1311" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1604685127475" />
+    <state width="1311" height="238" key="GridCell.Tab.1.right" timestamp="1604685127475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1311" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604685127475" />
     <state x="-1736" y="90" key="MergeDialog" timestamp="1604657323548">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
@@ -434,10 +452,10 @@
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604673159965" />
     <state x="-1368" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604674242253" />
-    <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604675640077">
+    <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604684282982">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1604675640077" />
+    <state x="553" y="320" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1604684282982" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1604673156601" />
     <state x="-1143" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604657501947" />
     <state x="2697" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1604339868876" />
@@ -451,17 +469,17 @@
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1604429945474" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain2.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain2 Coverage Results" MODIFIED="1604661336871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_AllUrls.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_AllUrls Coverage Results" MODIFIED="1604679025781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$ExtractHTML.coverage" NAME="ExtractHTML Coverage Results" MODIFIED="1604679371496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$HTMLtoCSV.coverage" NAME="HTMLtoCSV Coverage Results" MODIFIED="1604671744528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_ConverterToCsvTest_py.coverage" NAME="Unittests in ConverterToCsvTest.py Coverage Results" MODIFIED="1604679002225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604682780171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_internet.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_internet Coverage Results" MODIFIED="1604679018398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain1.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain1 Coverage Results" MODIFIED="1604674355797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_differentFiles.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles Coverage Results" MODIFIED="1604683970183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604674507886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_Algo.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_Algo Coverage Results" MODIFIED="1604679032702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Extract.coverage" NAME="Extract Coverage Results" MODIFIED="1604652971234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$HTMLtoCSV.coverage" NAME="HTMLtoCSV Coverage Results" MODIFIED="1604671744528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain1.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain1 Coverage Results" MODIFIED="1604674355797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_AllUrls.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_AllUrls Coverage Results" MODIFIED="1604679025781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_VeriteTerrain2.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_VeriteTerrain2 Coverage Results" MODIFIED="1604661336871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1604687877700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_Algo.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_Algo Coverage Results" MODIFIED="1604679032702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1604668058324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_internet.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_internet Coverage Results" MODIFIED="1604679018398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_for_ConverterToCsvTest_MyTestCase_test_differentFiles.coverage" NAME="Unittests for ConverterToCsvTest.MyTestCase.test_differentFiles Coverage Results" MODIFIED="1604684302643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$Unittests_in_ConverterToCsvTest_py.coverage" NAME="Unittests in ConverterToCsvTest.py Coverage Results" MODIFIED="1604507735852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WikipediaExtractor_Python$ExtractHTML.coverage" NAME="ExtractHTML Coverage Results" MODIFIED="1604671740448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
