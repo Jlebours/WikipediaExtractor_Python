@@ -15,10 +15,6 @@
  interpreter (path from your python install)
 
 ### Librairies Installation
-  Open the terminal and write the following commands for each library :
- * pandas : pip install pandas
- * Beautiful Soup : pip install bs4
- * requests : pip install requests
+Open the terminal and write the following commands for each library :
  * lxml : pip install lxml
-
- 
+Other libraries can be imported directly in the project but you can also install ther.
