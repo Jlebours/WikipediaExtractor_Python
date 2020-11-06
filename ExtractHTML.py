@@ -1,7 +1,5 @@
 import urllib.request as u_req
-import urllib.request as u_parse
 import pandas
-import string
 from bs4 import BeautifulSoup
 
 

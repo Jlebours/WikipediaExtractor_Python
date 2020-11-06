@@ -22,11 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Add information on the nb of tables extracted in the main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6bd9eb5b-d2c3-40ad-a5fa-e29dac162b39" name="Default Changelist" comment="Add rstrip('\n') to remove \n form urls">
       <change beforePath="$PROJECT_DIR$/ExtractHTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractHTML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputdata/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputdata/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +122,7 @@
       <workItem from="1604507647329" duration="10669000" />
       <workItem from="1604565291745" duration="1219000" />
       <workItem from="1604567319315" duration="2702000" />
-      <workItem from="1604655700317" duration="4897000" />
+      <workItem from="1604655700317" duration="4934000" />
     </task>
     <task id="LOCAL-00002" summary="test push">
       <created>1604412459082</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604657609746</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add rstrip('\n') to remove \n form urls">
+      <created>1604660630772</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604660630772</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +290,8 @@
     <MESSAGE value="Rebase of the project to integer pandas.read_html() function" />
     <MESSAGE value="Made the difference between old and new version" />
     <MESSAGE value="Add information on the nb of tables extracted in the main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add information on the nb of tables extracted in the main" />
+    <MESSAGE value="Add rstrip('\n') to remove \n form urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add rstrip('\n') to remove \n form urls" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1334" y="202" key="#Inspections" timestamp="1604569968513">
