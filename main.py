@@ -1,16 +1,15 @@
 import HTMLtoCSV
-
+import ExtractHTML
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # Function General
-    HTMLtoCSV.createCsv_URL("https://en.wikipedia.org/wiki/Comparison_(grammar)", "Comparison_(grammar)")
-    HTMLtoCSV.createCsv_URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Interlingua",
-                            "Comparison_between_Ido_and_Interlingua")
-    HTMLtoCSV.createCsv_URL("https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido",
-                            "Comparison_between_Esperanto_and_Ido")
+    print("Reading url file...")
+    # Two dimensional tab with urls and it's name for each one
+    allUrls = ExtractHTML.read_urls()
+    print(f"You will extract tables from {len(allUrls)} urls")
+    print("Starting extraction...")
+    for url, name in allUrls:
+        tables = ExtractHTML.get_tables(url)
+        HTMLtoCSV.convert_csv(tables, name)
+    print("End of extraction, you can check the output directory :)")
 
-    #with open("inputdata/wikiurls.txt", "r") as file:
-        #for url in file:
-            #wurl = "https://en.wikipedia.org/wiki/" + url
-            #print(wurl)
-            #HTMLtoCSV.createCsv_URL(wurl, url)
+
