@@ -13,9 +13,10 @@ if __name__ == '__main__':
     print(f"You will extract tables from {len(allUrls)} url(s)")
     print("Starting extraction...")
 
+    nbtaburl = []  # List of total tables created by url
+    nameurl = []  # List of total url
 
-    nbtaburl = []
-    nameurl = []
+    # counter
     nbInvalidUrl = 0
     i = 0
     k = 0
@@ -32,8 +33,9 @@ if __name__ == '__main__':
                     print("Exception type: ", exc.__class__)
                     print(f"A wikitable in the url {i} : {name} have a syntax problem, so it can't extract it")
                 else:
-                    k += 1
-                    a = HTMLtoCSV.convert_csv(dfs, name)
+
+                    k += 1  # Number url that contains tables
+                    a = HTMLtoCSV.convert_csv(dfs, name)  # return the number of tables
 
                     nbtaburl.append(k)
                     nbtaburl[k - 1] = a
@@ -44,6 +46,7 @@ if __name__ == '__main__':
         else:
             nbInvalidUrl += 1
 
+    # Create summary of obtained tables (list url, list tables number)
     HTMLtoCSV.CreateSummary(nameurl, nbtaburl)
 
     print(f"You extracted a total of {len(os.listdir('./output'))} table(s)")
