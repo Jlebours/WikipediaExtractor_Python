@@ -23,6 +23,13 @@ Clone https://github.com/Jlebours/WikipediaExtractor_Python.git for development 
 * For installation and test we are inviting you to click on, this below link
 [Install.md](https://github.com/Jlebours/WikipediaExtractor_Python/blob/master/INSTALL.md)
 
+## Use it 
+1. You have to edit wikiurls.txt file to add the name of the wikipedia pages from which you want to extract the tables,
+the name is the part placed after "https://en.wikipedia.org/wiki/".
+2. Run main.py which will automatically extract the tables of names in the file
+3. Show the process in the terminal
+4. Find your .csv files in the output directory
+
 ## Technologies
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) is a Python library for working with real-world HTML.
 * [Pandas](https://pandas.pydata.org/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
