@@ -1,5 +1,6 @@
 import urllib.request as u_req
 import pandas
+import requests
 from bs4 import BeautifulSoup
 
 
@@ -19,3 +20,8 @@ def get_tables(url):
     tables = str(bs.find_all('table', {'class': 'wikitable'}))
     dfs = pandas.read_html(tables)
     return dfs
+
+
+def is_url_valid(url):
+    r = requests.head(f"{url}")
+    return r.status_code == 200
