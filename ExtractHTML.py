@@ -1,5 +1,4 @@
 import urllib.request as u_req
-import pandas
 import requests
 from bs4 import BeautifulSoup
 
@@ -19,8 +18,7 @@ def get_tables(url):
     html = u_req.urlopen(url).read().decode("utf-8")
     bs = BeautifulSoup(html, 'lxml')
     tables = str(bs.find_all('table', {'class': 'wikitable'}))
-    dfs = pandas.read_html(tables)
-    return dfs
+    return tables
 
 
 # No problem entering the URL
