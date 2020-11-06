@@ -43,9 +43,3 @@ class MyTestCase(unittest.TestCase):
         f1 = "output/Comparison_between_Ido_and_Interlingua-1.csv"
         f2 = "verite/Comparison_between_Ido_and_Interlingua-1 test.csv"
         self.assertTrue(filecmp.cmp(f1, f2))
-
-
-
-
-
-

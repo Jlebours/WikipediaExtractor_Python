@@ -1,4 +1,6 @@
 import urllib.request as u_req
+
+import pandas
 import requests
 from bs4 import BeautifulSoup
 
