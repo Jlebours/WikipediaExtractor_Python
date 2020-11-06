@@ -6,8 +6,8 @@ import ExtractHTML
 if __name__ == '__main__':
 
     print("Reading url file...")
-    # Two dimensional array string with urls and it's name for each one
     ExtractHTML.open_output()
+    # Two dimensional array string with urls and it's name for each one
     allUrls = ExtractHTML.read_urls()
     print(f"You will extract tables from {len(allUrls)} url(s)")
     print("Starting extraction...")
