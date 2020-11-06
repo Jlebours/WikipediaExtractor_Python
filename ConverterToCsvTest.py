@@ -2,6 +2,8 @@ import filecmp
 import os
 import unittest
 
+import pandas
+
 import ExtractHTML
 import HTMLtoCSV
 
@@ -45,6 +47,11 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(filecmp.cmp(f1, f2))
 
     def test_differentFiles(self):
+        boolean = False
+        files = os.listdir("output")
+        for name in files:
+            print(name)
+
 
 
 
