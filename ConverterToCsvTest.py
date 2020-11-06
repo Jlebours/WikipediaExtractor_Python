@@ -2,6 +2,8 @@ import filecmp
 import os
 import unittest
 
+import ExtractHTML
+
 
 class MyTestCase(unittest.TestCase):
     def test_sameFiles(self):
@@ -12,6 +14,8 @@ class MyTestCase(unittest.TestCase):
     def test_internet(self):
         self.assertEqual(0,os.system('ping www.google.com >> log_ping'))
 
+    def testAlgo(self):
+        allUrls = ExtractHTML.read_urls()
 
 
 
