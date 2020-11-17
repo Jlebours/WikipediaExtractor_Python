@@ -1,6 +1,5 @@
 import os
 
-
 def convert_csv(tables, name):
     """
     Converts to csv the list of wikipedia tables associated with their name
