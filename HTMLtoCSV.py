@@ -19,13 +19,12 @@ def convert_csv(tables, name):
 
 def get_summary(nameurl, nbtaburl):
     """
-    Create the text file with the summary of the extracted tables
-    output/summary.txt
+    Create the text file summary.txt which summarise the extraction at the root of the project
     :param nameurl: list[DataFrame]
     :param nbtaburl: list[DataFrame]
     :return:void
     """
-    file = open("output/summary.txt", "w")
+    file = open("summary.txt", "w")
     file.write("Summary of the extracted tables" + os.linesep)
     for i in range(len(nbtaburl)):
         file.write(nameurl[i] + ", " + str(nbtaburl[i]) + os.linesep)
