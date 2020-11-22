@@ -30,7 +30,6 @@ def get_tables(url):
         table.decompose()
 
     tables = str(bs.find_all('table', {'class': 'wikitable'}))
-    print(tables)
     return tables
 
 
