@@ -26,7 +26,11 @@ def get_tables(url):
     """
     html = u_req.urlopen(url).read().decode("utf-8")
     bs = BeautifulSoup(html, 'lxml')
+    for table in (bs.find_all('table', {'class': 'navbox mw-collapsible autocollapse'})):
+        table.decompose()
+
     tables = str(bs.find_all('table', {'class': 'wikitable'}))
+    print(tables)
     return tables
 
 
