@@ -8,7 +8,7 @@ def convert_csv(tables, name):
     :return:int
     """
     csvname = f"{name}_"
-    csvdir = './output'
+    csvdir = 'output/python'
     nbtable = 0
     for table in tables:
         nbtable += 1
@@ -24,7 +24,7 @@ def get_summary(nameurl, nbtaburl):
     :param nbtaburl: list[DataFrame]
     :return:void
     """
-    file = open("summary.txt", "w")
+    file = open("output/summaryPython.txt", "w")
     file.write("Summary of the extracted tables" + os.linesep)
     for i in range(len(nbtaburl)):
         file.write(nameurl[i] + ", " + str(nbtaburl[i]) + os.linesep)

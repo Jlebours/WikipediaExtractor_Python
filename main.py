@@ -39,7 +39,7 @@ if __name__ == '__main__':
             nbInvalidUrl += 1
     # Create summary of obtained tables (list url, list tables number)
     HTMLtoCSV.get_summary(nameurl, nbtaburl)
-    print(f"You extracted a total of {len(os.listdir('./output'))} table(s)")
-    print("You can find the summary (summary.txt) at the root of the project")
+    print(f"You extracted a total of {len(os.listdir('output/python'))} table(s)")
+    print("You can find the summary (summaryPython.txt) in output dir of the project")
     print(f"{nbInvalidUrl} url(s) was invalid")
     print("End of extraction, you can check the output directory :)")

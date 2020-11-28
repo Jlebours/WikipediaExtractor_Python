@@ -48,6 +48,9 @@ def open_output():
     Opens an output directory so that csv's can be saved there if it does not already exist.
     :return:void
     """
-    csvdir = './output'
+    csvdir = 'output'
+    if not os.path.exists(csvdir):
+        os.mkdir(csvdir)
+    csvdir = 'output/python'
     if not os.path.exists(csvdir):
         os.mkdir(csvdir)
